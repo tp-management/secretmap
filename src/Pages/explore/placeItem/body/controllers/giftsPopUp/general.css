@@ -1,0 +1,21 @@
+.option_item:focus{
+    background-image: url("../../../../../../assets/explore/active_star.png");
+    color: aliceblue; 
+}
+.option_item:hover{
+    background-image: url("../../../../../../assets/explore/active_star.png");
+    color: aliceblue;
+}
+
+.option_item{
+    background-image: url("../../../../../../assets/explore/not_active_star.png");
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #7a7a7a;
+}

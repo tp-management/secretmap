@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    margin: 12px 0;
+    align-items: center;
+    width: 100%;
+}
+
+.balance_header{
+    font-weight: 900;
+    font-size: 18px;
+    color: #6b6969;
+}
+
+.auth_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22px;
+}
+
+.auth_info span{
+    margin-right: 1.3rem;
+    color: #EE7D15;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.btn_wrapper{
+    background-color: #EE7D15;
+    border-radius: 100px;
+}
+
+.boost_btn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.boost_icon_wrapper{
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    background-color: white;
+    padding: 5px;
+    margin: 3px;
+}
+
+.boost_btn h1{
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}

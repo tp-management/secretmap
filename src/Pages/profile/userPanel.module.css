@@ -1,0 +1,52 @@
+.wrapper{
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.user_content{
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+
+    align-items: center;
+}
+
+.user_avatar img{
+    width: 5rem;
+}
+
+.profile_name_email{
+    margin: 0 2rem;
+}
+.profile_name_email h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(42, 42, 42);
+
+}
+.profile_name_email p{
+    color: rgb(79, 79, 79);
+    font-size: 20px;
+}
+
+.points{
+    margin-top: 2rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.points h1, .points span{
+    font-size: 20px;
+    margin-left:  1rem;
+}
+
+.points span{
+    color: #EE7D15;
+}
+
+.points img{
+    width: 4rem;
+}

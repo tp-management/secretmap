@@ -1,0 +1,111 @@
+.main_container{
+    margin: 0 auto;
+    width: 60rem;
+}
+
+.about_section{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 2rem;
+    padding-left: 0;
+}
+
+.about_box{
+    display: flex;
+    margin-bottom: 1rem;
+    color: #4a4a4a;
+    justify-content: space-between;
+}
+
+.about_box span{
+    color: #EE7D15;
+    font-size: 34px;
+    cursor: pointer;
+}
+
+.about_section h1{
+    font-size: 22px;
+}
+
+.textbox{
+    width: 100%;
+    border: 2px solid rgba(144, 141, 141, 0.3);
+    border-radius: 11px;
+    color: #7F5537;
+    line-height: 1.2;
+    display: block;
+    height: 15vh;
+    background: transparent;
+    border-radius: 11px;
+}
+.save_btn{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.save_btn h1{
+    color: #fff;
+    font-size: 17px;
+    padding: 7px 5px;
+}
+
+.hobbies_section{
+    margin-top: 50px;
+}
+
+.hobbies_section h1{
+    color: #4a4a4a;
+    font-size: 22px;
+}
+
+.interest{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.interest p{
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+    background-color: #EE7D15;
+    font-style: 20px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+.points{
+    display: none;
+}
+
+.edit_profile{
+    margin-left: 111px;
+    padding: 15px;
+}
+.about_section {
+    
+    width: 100%;
+}
+.about_box span{
+    margin-right: 23px;
+}
+}
+
+@media screen and (max-width: 1100px) {
+    .main_container{
+        width: 50rem;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .main_container{
+        width: 90vw;
+    }
+    
+}

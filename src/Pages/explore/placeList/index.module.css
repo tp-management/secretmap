@@ -1,0 +1,32 @@
+.places_list_container{
+    text-align: center;
+    width: 100%;
+}
+
+.no_places{
+    font-size: 1.2rem;
+    width: 20rem;
+    margin: 3rem auto;
+    color: rgba(112, 112, 112, 1);  
+}
+
+.no_places p{
+    font-size: 1.4rem;
+    color: #EE7D15;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+
+.places_list_header{
+    font-size: 3em;
+    color: rgba(112, 112, 112, 1);
+}
+
+
+@media (max-width: 600px) {
+    .places_list_container{
+        padding-top: 1rem;
+    }
+}

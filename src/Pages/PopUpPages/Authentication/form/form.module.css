@@ -1,0 +1,104 @@
+
+.wrapper
+{
+    border-radius: 24px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 60vw;
+}
+
+.form_container
+{
+    width: 50%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.background{
+    width: 50%;
+    padding: 20px;
+    background-image: url("../../../../assets/authentication/login_bg_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.background_filter{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: #2b2a2a9b;
+    z-index: -1;
+    
+}
+
+.background .inner_image{
+    
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    background-image: url("../../../../assets/authentication/login_bg_2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+@media (max-width: 1250px)
+{   
+    .wrapper{
+        width: 80vw;
+    }
+    
+}
+
+
+
+
+@media (max-width: 1000px)
+{   
+    .wrapper{
+        width: 90vw;
+    }
+    
+}
+
+
+@media (max-width: 850px)
+{   
+    .wrapper{
+        width: 60vw;
+    }
+
+    .background{
+        display: none;
+    }
+
+    .form_container{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 600px)
+{   
+    .wrapper{
+        width: 75vw;
+    }
+}
+
+
+@media (max-width: 480px)
+{   
+    .wrapper{
+        width: 87vw;
+    }
+}

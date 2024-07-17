@@ -1,0 +1,122 @@
+.modal_content{
+    width: 28rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 24px;
+    display: flex;
+    max-height: 90vh;
+    padding: 1rem;
+    flex-direction: column;
+    position: relative;
+}
+
+.icon_wrapper {
+    background-color:  #FFF;
+    border-bottom: solid 2px #c6c5c5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close_btn{
+    width: 23px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.level_header h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #0B132A;
+    letter-spacing: 2px;
+}
+
+.caption, .purchase_container, .balance_container{
+    width: 95%;
+    font-size: 17.5px;
+    color: #5b5a5a;
+    margin: 5px auto;
+    letter-spacing: 0.8px;
+}
+
+.caption span, .purchase_container span, .balance_container span{
+    color: #F08D32;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.purchase_container, .balance_container{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.purchase_container span, .balance_container span{
+    font-size: 21px;
+    margin: 0 8px;
+}
+
+.purchase_container img{
+    width: 30px;
+    margin-left: 8px;
+}
+
+
+.balance_container{
+    margin: 0 auto;
+}
+
+.purchase_button_wrapper{
+    display: inline-block;
+    margin: 10px auto;
+    margin-top: 20px;
+}
+
+.note_container{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.note_container span{
+    color: rgb(241, 75, 75);
+    margin: 0;
+}
+
+.note_container p{
+    margin-top: 3px;
+    color: #5b5a5a;
+}
+
+
+  
+  
+@media (max-width: 500px) {
+    .modal_content{
+        width: 22rem;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .modal_content{
+        width: 92vw;
+    }
+}
+
+@media (max-width: 280px) {
+    .modal_content{
+        width: 95vw;
+    }
+}
+

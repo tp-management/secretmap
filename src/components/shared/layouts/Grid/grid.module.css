@@ -1,0 +1,16 @@
+.container{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 430px) {
+  .container{
+      width: 95%;
+      padding: 0;
+  }
+}

@@ -1,0 +1,12 @@
+.controllers{
+    display: flex;
+    background-color: #F5F5F5;
+    padding: 12px 8px;
+    width: 25rem;
+    border-radius: 14px;
+    margin-bottom: 2rem;
+}
+
+.controllers .controller_wrapper{
+    flex: 1;
+}

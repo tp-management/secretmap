@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+}
+
+.comm_info_header{
+    color: rgba(83, 81, 81, 0.7);
+    text-align: center;
+    font-size: 19px;
+    padding: 0.8rem 0;
+    cursor: pointer;
+}

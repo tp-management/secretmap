@@ -1,0 +1,56 @@
+.wrapper{
+    width: 70%;
+    text-align: center;
+}
+
+.box, .box img {
+    margin: 0 auto;
+}
+
+
+.main_header{
+    color: rgba(0, 0, 0, 0.593);
+    font-size: 25px;
+    width: 70%;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.main_header span{
+    color: #EE7D15;
+}
+
+@media (max-width: 900px)
+{
+    .wrapper{
+        width: 95%;
+    }
+
+    .main_header{
+        width: 80%;
+    }
+}
+
+
+@media (max-width: 650px)
+{
+
+    .main_header{
+        font-size: 22px;
+        margin: 2rem auto;
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 450px)
+{
+
+    .main_header{
+        font-size: 19px;
+        width: 100%;
+    }
+    
+}
+

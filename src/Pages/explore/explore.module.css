@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    text-align: center;
+    min-height: 90vh;
+}
+
+.side_image{
+    display: none;
+}
+
+.main_content{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.filter_container{
+    width: 80vw;
+    margin: 10px auto;
+    margin-top: 3rem;
+}
+
+@media (max-width: 1100px) {
+
+    .filter_container{
+        width: 95vw;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .filter_container{
+        display: none;
+    }
+
+    .pc_header{
+        display: none;
+    }
+
+    .side_image{
+        display: block;
+        padding: 5px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    .side_image{
+        display: none;
+    }
+}

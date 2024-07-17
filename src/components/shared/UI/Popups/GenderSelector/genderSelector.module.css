@@ -1,0 +1,46 @@
+
+.modal_content{
+    width: 20rem;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 20px;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.modal_content ul{
+    width: 70%;
+    flex: 2;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal_content ul h1{
+    text-align: center;
+    border-radius: 24px;
+    padding: 16px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    font-size: 1.2rem;
+    color: rgb(85, 84, 84);
+}
+
+.modal_content ul h1:hover{
+    background-color: #ee7e1556;
+}
+
+
+
+@media (max-width: 400px) {
+    .modal_content{
+        width: 80vw;
+        padding: 0;
+    }
+}
+
+

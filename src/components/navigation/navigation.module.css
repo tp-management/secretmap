@@ -1,0 +1,9 @@
+.navContainer{
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 4px;
+  background-color: rgb(255, 255, 255);
+}
+

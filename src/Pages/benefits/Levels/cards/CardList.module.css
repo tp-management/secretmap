@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+    min-height: 40vh;
+    width: 90%;
+}
+
+@media screen and (max-width:990px) {
+    .row{
+        flex-wrap: wrap;
+        margin: 25px; 
+    }
+}

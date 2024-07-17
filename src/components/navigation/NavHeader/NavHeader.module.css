@@ -1,0 +1,66 @@
+.mainHeader {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.mobile_navigation{
+  flex: 1;
+  margin: 0 30px;
+}
+
+.header_navigation{
+  flex: 3;
+  margin: 2px;
+}
+
+.header_text{
+  cursor: pointer;
+}
+
+.header_text *{
+  color: rgba(238, 125, 21, 1);
+  padding: 0;
+  margin: 0;
+}
+
+.header_text h1{
+  color: #191919;
+  align-self: auto;
+  margin: auto;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.login_btn{
+  margin: 0 20px;
+}
+
+.login_btn h1{
+  padding: 8px 3px;
+  color: rgb(228, 227, 224);
+}
+
+@media (max-width: 1000px) {
+
+  .header_navigation{
+    display: none;
+  }
+
+  .mobile_navigation{
+    flex: 1;
+  }
+
+  .header_text{
+    display: none;
+  }
+}
+
+
+ @media (max-width: 650px) {
+  .mobile_navigation{
+    margin: 0;
+    margin-left: 1rem;
+  }
+}

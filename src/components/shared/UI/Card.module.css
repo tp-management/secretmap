@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding-top: 8rem;
+}
+
+@media (max-width: 600px) {
+
+  .card {
+    padding-top: 4rem;
+
+  }
+
+}

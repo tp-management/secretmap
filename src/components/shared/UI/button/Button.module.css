@@ -1,0 +1,43 @@
+.wrapper
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container
+{
+    width:100%;
+    display:block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 14px;
+}
+
+.btn
+{
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: #000;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    padding:0 20px;
+    height: 50px;
+    width:100%;
+    border-radius: 11px;
+
+}
+
+
+
+

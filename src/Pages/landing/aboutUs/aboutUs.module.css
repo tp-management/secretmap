@@ -1,0 +1,175 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.container{
+    display: flex;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+}
+
+
+.main_image img{
+    width: 22rem;
+    object-fit: contain;
+}
+
+.main_image_mobile{
+    display: none;
+}
+
+
+.header_container{
+    margin: 2rem 0;
+    display: flex;
+}
+
+.header_wrapper{
+    display: inline-block;
+    position: relative;
+}
+
+.header_wrapper img{
+    position: absolute;
+    width: 4.8rem;
+    left: -3rem;
+    top: -2rem;
+}
+
+.header_wrapper div{
+    color: #283646;
+    font-size: 38px;
+    display: inline-block;
+}
+
+.header_wrapper div hr{
+    padding: 3px;
+    width: 80%;
+    border-radius: 41px;
+    border: none;
+    background-color: #F08D32;
+}
+
+
+.paragraph_container p{
+    color: #2836467e;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+
+@media (max-width: 900px)
+{
+
+    .wrapper{
+        justify-content: right;
+    }
+
+    .container{
+        width: 60%;
+    }
+
+    .main_image img, .main_image_mobile img{
+        width: 18rem;
+        margin: 0 auto;
+    }
+}
+
+@media( max-width: 800px){
+
+    .wrapper{
+        justify-content: center;
+    }
+
+    .main_image{
+        display: none;
+    }
+
+    .header_container{
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+
+    .main_image_mobile{
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 600px)
+{
+
+    .container{
+        width: 75%;
+    }
+
+    .header_container{
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .header_wrapper div{
+        font-size: 30px;
+    }
+
+    .header_wrapper img{
+        width: 3.5rem;
+        left: -2.3rem;
+        top: -1.7rem;
+    }
+    
+    .paragraph_container p{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .main_image_mobile{
+        width: 15rem;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px)
+{
+
+    .paragraph_container{
+        padding: 1rem;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .paragraph_container p{
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 310px)
+{
+
+
+    .header_wrapper div{
+        font-size: 25px;
+    }
+
+    .main_image_mobile{
+        width: 10rem;
+    }
+
+    .paragraph_container p{
+        font-size: 16px;
+    }
+    
+}

@@ -1,0 +1,29 @@
+.onFocus hr{
+  position: absolute;
+  padding: 2px;
+  width: 80%;
+  opacity: 0;
+  margin: 0;
+  border-radius: 22px;
+}
+
+.onFocus a:hover hr,
+.onFocus a:active hr,
+.onFocus a.active hr{
+  background-color: #EE7D15;
+  opacity: 1;
+}
+
+.onFocus a:hover,
+.onFocus a:active,
+.onFocus a.active {
+  color: #EE7D15;
+}
+
+.onFocus a{
+  color: rgb(127, 120, 147);
+}
+
+.onFocus img{
+  width: 40px;
+}

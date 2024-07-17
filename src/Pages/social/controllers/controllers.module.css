@@ -1,0 +1,100 @@
+.controllers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 3rem auto;
+}
+
+.controllers .btn_text{
+    color: white;
+    font-size: 15px;
+}
+
+.middle_content{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.middle_content h1{
+    padding: 0 1rem;
+    font-size: 20px;
+    color: #2C2B2A;
+}
+
+.middle_content hr{
+    padding: 0.3px;
+    flex: 1;
+    background-color: #2c2b2a7c;
+}
+
+@media (max-width: 1300px)
+{
+    .controllers{
+        width: 70%;
+    }
+}
+
+@media (max-width: 1100px)
+{
+    .controllers{
+        width: 80%;
+    }
+}
+
+@media (max-width: 950px)
+{
+    .controllers{
+        width: 90%;
+    }
+
+    .controllers .btn_text{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 950px)
+{
+    .controllers{
+        width: 70%;
+    }
+}
+
+@media (max-width: 650px)
+{
+    .controllers{
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .controllers{
+        flex-direction: column;
+    }
+
+    .controllers .btn_text{
+        font-size: 13px;
+    }
+
+    .middle_content{
+        margin: 1rem 0;
+    }
+
+    .middle_content hr{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 300px)
+{
+
+    .controllers .btn_text{
+        font-size: 10px;
+    }
+
+    .middle_content{
+        margin: 0.5rem 0;
+    }
+}

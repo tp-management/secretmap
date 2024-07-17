@@ -1,0 +1,75 @@
+.container{
+  width: 100%;
+  padding-top: 5rem;
+  height: 100vh;
+  height: 100svh;
+  min-height: 35rem;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../../../assets/background.png");
+  justify-content:space-between
+}
+
+.header_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_wrapper .text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_wrapper .text, .header_wrapper .background{
+  flex: 1;
+}
+
+.header_wrapper .background img{
+  width: 70%;
+  min-width: 24rem;
+}
+
+@media (max-width: 1000px)
+{   
+
+  .container{
+    padding-top: 4.5rem;
+    
+  }
+
+  .header_wrapper .background img
+  {
+    width: 80%;
+  }
+}
+
+@media (max-width: 650px)
+{   
+  .header_wrapper .background img{
+    min-width: 22rem;
+  }
+}
+
+
+.places_list{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 50vh;
+  min-height: 17rem;
+}
+
+.places_list .carousele{
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  padding-bottom: 4px;
+}
+

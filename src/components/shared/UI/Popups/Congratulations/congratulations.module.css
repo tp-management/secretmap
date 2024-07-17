@@ -1,0 +1,61 @@
+.container{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 50px;
+    min-height: 40vh;
+    width: 30rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.middle_anime{
+    width: 1rem;
+    margin: 0 auto;
+}
+
+.content_body h1{
+    color: #EE7D15;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content_body p{
+    color: rgb(93, 92, 92);
+    font-size: 20px;
+}
+
+.content_body p span{
+    color: #EE7D15;
+    font-size: 25px;
+    padding: 2px;
+}
+
+.close_label{
+    position: absolute;
+    bottom: 1rem;
+    color: rgb(180, 82, 82);
+    font-size: 15px;
+    text-align: right;
+    padding-left: 1rem;
+}
+
+.content_body{
+    border: 2px solid red;
+    padding: 3rem;
+    padding-top: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: 80vw;
+        min-height: 60vh;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .close_label{
+        padding: 0;
+    }
+}

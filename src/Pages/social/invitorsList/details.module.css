@@ -1,0 +1,205 @@
+.container{
+    background-color: #ffffff;
+    width: 38rem;
+    padding: 5px;
+    border-radius: 11px;
+    position: relative;
+    border-radius: 24px;
+    max-height: 80vh;
+    overflow: scroll;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.user_bar{
+    display: flex;
+
+}
+
+.user_bar img{
+    width: 3.8rem;
+}
+
+.name_country{
+    margin-right: auto;
+    align-self: center;
+    margin-left: 1rem;
+    font-weight: 0;
+}
+
+.name_country h1, .destination h1{
+    letter-spacing: 1px;
+    color: rgb(47, 46, 46);
+    font-size: 21px;
+    font-weight: 40px;
+}
+
+.name_country p{
+    color: rgb(95, 92, 92);
+    font-size: 15px;
+}
+
+.gender_content{
+    border: 2px solid red;
+    padding: 2rem 0;
+}
+
+.destination{
+    display: flex;
+    align-items: center;
+}
+
+.destination h1{
+    font-size: 15px;
+}
+
+.destination span{
+    color: #EE7D15;
+}
+
+.user_country{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.user_country img{
+    width: 3rem;
+    margin-right: 8px;
+    border-radius: 25px;
+    
+}
+
+.destination img{
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+
+.description{
+    width: 80%;
+    min-height: 10rem;
+    max-height: 25rem;
+    overflow: scroll;
+    background-color: #0000000A;
+    border-radius: 13px;
+    padding: 10px;
+    margin: 2rem auto;
+    font-size: 17px;
+    color: rgb(107, 107, 107);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 2px;
+}
+
+.btn_wrapper{
+    margin: 1rem;
+    display: inline-block;
+}
+
+.btn_wrapper h1{
+    padding: 8px 0px;
+    font-size: 13px;
+}
+
+.btn_wrapper img{
+    width: 2.5rem;
+}
+
+.contacting_information{
+    text-align: center;
+    margin: 1rem;
+    font-size: 18px;
+    color: #8e8d8d;
+}
+
+.contacting_information span{
+    margin-left: 20px;
+    color: #EE7D15;
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        width: 33rem;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        width: 80vw;
+    }
+
+    .user_bar, .destination{
+        margin-bottom: 2rem;
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .user_bar{
+        justify-content: left;
+    }
+
+    .user_bar img{
+        margin-right: 1rem;
+    }
+
+    .name_country{
+        margin: 0;
+    }
+
+    .header{
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container{
+        width: 90vw;
+    }
+
+    .header{
+        margin-bottom: 5px;
+    }
+
+    .user_bar{
+        width: 100%;
+    }
+
+    .destination{
+        justify-content: center;
+    }
+
+    .destination img{
+        width: 2rem;
+    }
+
+    .destination h1{
+        font-size: 13px;
+    }
+
+
+
+    .name_country{
+        margin-left: 1rem;
+    }
+
+    .description{
+        width: 85%;
+        max-height: 40rem;
+        padding: 8px;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 93vw;
+    }
+}

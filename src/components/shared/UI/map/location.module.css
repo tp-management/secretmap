@@ -1,0 +1,160 @@
+
+.map_container{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(230, 227, 212);
+}
+
+.messageBox{
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.281);
+    height: 50vh;
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    left: 3rem;
+    border-radius: 30px;
+}
+
+.controllers{
+    position: fixed;
+    top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.controllers_insider{
+    display: flex;
+    justify-content: space-around;
+    width: 18rem;
+    padding-right: 1rem;
+}
+
+.btn_text{
+    color: white;
+}
+
+.get_coordinates{
+    position: fixed;
+    bottom: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.email_popup{
+    padding: 10px;
+    background-color:rgb(217, 213, 213);
+    border-radius: 11px;
+    width: 20rem;
+    /* border: 5px solid #F08D32; */
+}
+
+.email_header{
+    text-align: center;
+    font-size: 21px;
+    margin: 1rem 0;
+    color: #F08D32;
+}
+.email_btn{
+    display: inline-block;
+    margin: 1.6rem 0;
+    margin-bottom: 5px;
+}
+
+.email_btn h1{
+    color: aliceblue;
+    padding: 7px 2px;
+}
+
+.notify_message{
+    margin-left: 1rem;
+}
+
+.notify_message h1{
+    font-size: 16px;
+}
+
+.notify_message h2{
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.notify_message span{
+    font-size: 15px;
+    color: #F08D32;
+    margin-right: 10px;
+}
+
+
+.btn_content {
+    display: flex;
+    align-items: center;
+}
+
+.btn_content img{
+    width: 2rem;
+    margin-left: 1rem;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+    height: 2rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.loading__{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading__icon{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    text-align: center;
+}
+
+
+@media (max-width: 350px) {
+    .controllers_insider{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 280px) {
+    .controllers_insider{
+        width: 100%;
+        padding: 0;
+    }
+
+    .btn_text{
+        font-size: 10px;
+    }
+}

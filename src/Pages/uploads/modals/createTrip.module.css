@@ -1,0 +1,144 @@
+.container{
+    width: 23rem;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    background-color: rgb(255, 255, 255);
+
+    padding: 0 25px;
+    border-radius: 24px;
+    max-height: 85vh;
+    overflow: scroll;
+    margin: 3rem 0;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+
+.login_form_title
+{
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #635e5e;
+    text-align: center;
+    padding: 1.2rem 0;
+}
+
+
+.form_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.select_type{
+    border: 2px solid rgba(48, 47, 47, 0.3);
+    border-radius: 11px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color:#999999;
+    cursor: pointer;
+}
+
+.select_type div{
+    display: flex;
+    align-items: center;
+}
+
+.select_type img{
+    margin: 1rem;
+    width: 22px;
+}
+
+.logo_menu{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+
+
+.logo_menu img{
+    width: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.icon_invalid{
+    border: 2px solid rgb(209, 127, 127);
+}
+
+.icon_valid{
+    border: 2px solid rgb(127, 209, 138);
+}
+
+
+.btn_container{
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.btn_container h1{
+    color: whitesmoke;
+    padding: 10px 0;
+}
+
+.preparing_url{
+    text-align: center;
+    color: #686767;
+    font-size: 21px;
+    padding-bottom: 3rem;
+}
+
+.preparing_url h1{
+    color: #EE7D15;
+    font-size: 28px;
+    margin: 3rem 0;
+}
+
+.almost_there{
+    text-align: center;
+}
+
+.almost_there_loader{
+    width: 100%;
+    position: relative;
+    min-height: 10rem;
+    background-color: aquamarine;
+}
+
+.almost_there h1{
+    color: #686767;
+    font-size: 21px;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 500px)
+{   
+    .container
+    {
+        width: 75vw;
+    }
+}
+
+@media (max-width: 400px)
+{   
+    .container
+    {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 350px)
+{   
+    .container
+    {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,25 @@
+.container{
+    position: absolute;
+    height: 100%;
+    padding: 1px;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.description{
+    color: #f7f7f7ab;
+    max-height: 41%;
+    padding-top: 1rem;
+    overflow: scroll;
+    margin-bottom: 1rem;
+}
+
+.controllers{
+    align-self: center;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    display: inline-block;
+}

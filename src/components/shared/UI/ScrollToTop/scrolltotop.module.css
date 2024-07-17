@@ -1,0 +1,19 @@
+.scrollbutton{
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    height: 20px;
+    font-size: 3rem;
+    z-index: 1;
+    width: 4rem;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.scrolbtn{
+    color: #EE7D15;
+    font-size: 40px;
+    cursor: pointer;
+    justify-self: flex-end;
+}

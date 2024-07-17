@@ -1,0 +1,107 @@
+.container{
+    width: 28rem;
+    background-color: rgb(255, 255, 255);
+    /* background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.782)); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 80vh;
+    overflow: scroll;
+    border-radius: 24px;
+    position: relative;
+    padding: 2rem 1rem;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.header h1{
+    font-size: 23px;
+    color: #4D4D4D;
+}
+
+.header img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+}
+
+.paragraph{
+    font-size: 16px;
+    padding: 1rem 0;
+    color: #7a7a7a;
+    width: 100%;
+}
+
+.donate_btn_container{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.donate_btn_container h1{
+    color: white;
+    margin-left: 15px;
+}
+
+.options_container{
+    display: flex;
+    flex-direction: row;
+    width: 21rem;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.option_item{
+    background-image: url("../../../../../../assets/explore/not_active_star.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    color: #7a7a7a;
+    border: 0px solid white;
+    
+}
+
+.option_item:hover{
+    background-image: url("../../../../../../assets/explore/active_star.png");
+    color: aliceblue;
+    transition-duration: 0.25s;
+    outline: none;
+    border: 6px solid white;
+}
+
+
+@media (max-width: 520px) {
+    .container{
+        width: 85vw;
+    }
+
+    .options_container{
+        width: 17rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .container{
+        width: 90vw;
+    }
+}
+
+@media (max-width: 270px) {
+    .container{
+        width: 92vw;
+    }
+}

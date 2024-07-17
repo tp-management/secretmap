@@ -1,0 +1,28 @@
+.container{
+    text-align: center;
+    background-color: aqua;
+}
+
+.mobile{
+    display: none;
+}
+
+.btn_wrapper{
+    display: inline-block;
+    margin: 2rem auto;
+}
+
+.btn_wrapper h1{
+    color: aliceblue;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .mobile{
+        display: block;
+    }
+
+    .desktop{
+        display: none;
+    }
+}

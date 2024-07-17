@@ -1,0 +1,69 @@
+.container{
+	height: 100%;
+    -webkit-perspective: 500px;
+}
+
+
+.map_icon{
+	height: 80%;
+    animation-name: bounce;
+    animation-duration: 1s;
+	position: relative;
+	z-index: 1;
+	animation-name: bounce;
+}
+
+.map_icon img{
+	height: 100%;
+	margin: 0 auto;
+}
+
+.pulse{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 1.2%;
+    rotate: x 55deg;
+    -webkit-rotate: x 55deg;
+    -ms-rotate: x 55deg;
+	z-index: 0;
+}
+
+.pulse:after{
+    content: "";
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+	background-color: #eb882b;
+    background-color: rgba(255, 255, 255, 0.49);
+    animation-delay: 1.1s;
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite;
+}
+
+.pulse_custom_color::after{
+    background-color: #ee8c31;
+}
+
+
+@keyframes pulsate{
+    0%{
+        transform: scale(0.1, 0.1);
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    50%{
+        opacity: 1;
+        filter: none;
+    }
+    100%{
+        transform: scale(1.2, 1.2);
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+

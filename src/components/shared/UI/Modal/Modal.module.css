@@ -1,0 +1,22 @@
+.modal_container {
+  position: fixed;
+  height: 100vh;
+  height: 100dvh;
+  /* height: -webkit-fill-available; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  background-color: #00000093;
+  z-index: 5;
+
+}
+
+.transparent{
+  background: rgba(85, 85, 85, 0.316);
+}
+
+.full_width{
+  width: 100%;
+}

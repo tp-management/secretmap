@@ -1,0 +1,54 @@
+
+.top_menu_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.about_container{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.752);
+    margin-top: 2rem;
+}
+
+
+.header_wrapper{
+    display: inline-block;
+    position: relative;
+}
+
+.header_wrapper img{
+    position: absolute;
+    width: 3.5rem;
+    left: -2.5rem;
+    top: -1.5rem;
+}
+
+.header_wrapper div{
+    color: #283646;
+    font-size: 1.8rem;
+    display: inline-block;
+}
+
+.header_wrapper div hr{
+    padding: 3px;
+    width: 80%;
+    border-radius: 41px;
+    border: none;
+    background-color: #F08D32;
+}
+
+
+.paragraph{
+    width: 65%;
+    font-size: 1.1rem;
+    margin: 1rem auto;
+}
+
+@media (max-width: 500px) {
+    .paragraph{
+        font-size: 1rem;
+        margin: 10px auto;
+    }
+}

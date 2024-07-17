@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+.container{
+    border-radius: 20px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.wrapper{
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    border-radius: 14px;
+}
+
+.filter{
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    bottom: 0;
+    width: 100%;
+    background-color: #02020295;
+}
+
+.body_container{
+    width: 100%;
+    z-index: 0;
+}
+
+
+@media (max-width: 850px) {
+    .container{
+        height: 450px;
+    }
+}
+
+@media (max-width: 650px) {
+    .container{
+        width: 70%;
+        height: 480px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+        height: 500px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 370px) {
+    .container{
+        height: 480px;
+        width: 100%;
+    }
+}

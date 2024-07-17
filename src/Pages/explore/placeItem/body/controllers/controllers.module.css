@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    width: 100%;
+
+    justify-content: space-around;
+}
+
+.map_btn_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map_btn{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #e68b36;
+    border-radius: 40px;
+    font-size: 1rem;
+    padding: 2px 1rem;
+    align-self:normal
+}
+
+.map_btn_content{
+    display: flex;
+    font-size: 18.5px;
+    font-weight: 800;
+    justify-content: space-around;
+    color: #e68b36;
+    align-items: center;
+}
+
+.btn_icon{
+    position: relative;
+    width: 35px;
+    height: 35px;
+}
+
+
+.icon_ripple{
+    height: 35px;
+    border-radius: 50%;
+    left: -13px;
+    width: 43px;
+    height: 38px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.gift_icon{
+    align-self: center;
+    width: 2.5rem;
+    -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+/* .gift_icon:hover {
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+} */
+
+
+@media (max-width: 300px) {
+
+    .map_btn_container{
+        margin-left: 0.5rem;
+        font-size: 17.8px;
+    }
+}
+
+
+@media (max-width: 270px) {
+
+    .map_btn_container h1{
+        font-size: 15px;
+    }
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}

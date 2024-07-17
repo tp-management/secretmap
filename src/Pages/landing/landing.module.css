@@ -1,0 +1,169 @@
+.welcome_page{
+    display: flex;
+    padding: 15vh 0;
+    padding-bottom: 2rem;
+    align-items:center;
+    position: relative;
+}
+
+.welcome_page_content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    height: 100%;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.welcome_page_controllers{
+    width: 70%;
+    margin-top: 3rem;
+}
+
+.controllers{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile_bg_images{
+    display: none;
+}
+
+.computer_bg_images, .mobile_bg_images{
+    align-self: center;
+    flex: 1;
+}
+
+
+
+
+@media (max-width: 600px)
+{
+
+    .welcome_page{
+        height: 100vh;
+        height: 100svh;
+        padding-top: 10vh;
+        padding-bottom: 0;
+    }
+
+    .content{
+        min-height: 95%;
+        justify-content: space-around;
+    }
+    
+    .computer_bg_images{
+        display: none;
+    }
+
+    .mobile_bg_images{
+        display: block;
+        flex: 0;
+    }
+
+}
+
+@media (max-width: 400px)
+{
+    .content{
+        position: relative;
+        width: 95%;
+    }  
+
+    .mobile_bg_images{
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 350px)
+{
+    .content{
+        position: relative;
+        width: 95%;
+    }  
+
+}
+
+@media (max-width: 270px)
+{
+    .mobile_bg_images{
+        padding: 0;
+    }  
+
+}
+
+
+@media (max-width: 1200px)
+{
+    .welcome_page_controllers{
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px)
+{
+
+    .welcome_page_controllers{
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width: 600px)
+{
+
+    .welcome_page_controllers{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .controllers p{
+        font-size: 12px;   
+    }
+    
+}
+
+@media (max-width: 400px)
+{
+
+    .welcome_page_controllers{
+        width: 17rem;
+        margin: 0 auto;
+    }
+
+    
+}
+
+@media (max-width: 300px)
+{
+    .controllers p{
+        font-size: 10px;   
+    }
+     
+    .welcome_page_controllers{
+        width: 90%;
+    } 
+}
+
+@media (max-width: 250px)
+{
+    .controllers p{
+        font-size: 8px;   
+    }
+     
+    .welcome_page_controllers{
+        width: 100%;
+    } 
+}

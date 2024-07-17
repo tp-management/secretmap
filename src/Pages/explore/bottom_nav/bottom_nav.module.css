@@ -1,0 +1,54 @@
+.fixed_add_icon{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.filter_section_button{
+    display: none;
+}
+
+.controll_logos{
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    justify-content: center;
+}
+
+.controll_logos img{
+    width: 3.3rem;
+}
+
+.scrollDown_logo{
+    margin: 0 auto;
+    display: none;
+}
+
+
+@media (max-width: 900px){
+    .filter_section_button{
+        display: inline-block;
+    }
+}
+
+@media (max-width: 600px) {
+    .fixed_add_icon{
+        display: flex;
+    }
+
+    .scrollDown_logo{
+        display: block;
+    }
+
+    .controll_logos{
+        display: flex;
+    }
+
+    .filter_section_button{
+        display: none;
+    }
+}
+

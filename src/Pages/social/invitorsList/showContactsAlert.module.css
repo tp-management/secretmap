@@ -1,0 +1,69 @@
+.alert{
+    width: 25rem;
+    background-color: aliceblue;
+    border-radius: 24px;
+    text-align: center;
+    padding: 30px;
+    max-height: 90vh;
+    overflow: scroll;
+}
+
+
+.alert_header h1, .alert_message{
+    font-size: 1.5rem;
+    color: rgba(125, 215, 111, 1);
+}
+
+.alert_submited_logo img{
+    margin: 1rem auto;
+    width: 3.5rem;
+}
+
+.alert_logo img{
+    margin: 0 auto;
+    width: 8rem;
+}
+
+
+
+.alert_message{
+    color: #707070;
+    margin-bottom: 2rem;
+}
+
+
+.alert_btn{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 460px) {
+
+    .alert{
+        width: 19rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    .alert{
+        width: 16rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .alert{
+        width: 85vw;
+    }
+
+    .alert_message{
+        font-size: 20px;
+    }
+
+    .btn_text{
+        font-size: 12px;
+    }
+}
