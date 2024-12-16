@@ -2,7 +2,6 @@ import React, { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import LoadingSpinner from "../components/shared/UI/LoadingSpinner";
 import AboutUs from "../Pages/aboutUs";
-import Media from 'react-media'; // add Media
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -13,7 +12,7 @@ const Uploads = lazy(()=>import("../Pages/uploads"));
 const Shop = lazy(()=>import("../Pages/Shop/Index"));
 const Social = lazy(()=>import("../Pages/social"));
 const ShopingCart= lazy(()=>import("../Pages/Shop/ShoppingCart/ShoppingCart"));
-const Benefits = lazy(()=>import("../Pages/benefits/Benefits"));
+const Rewards = lazy(()=>import("../Pages/rewards"));
 
 
 
@@ -62,12 +61,12 @@ const Routing = () => {
         
 
         {/* <Route path="/uploads" element={<Uploads />} /> */}
-        <Route path="/uploads" element={<LandingPage uploads_modal={true} />} />
+        {/* <Route path="/uploads" element={<LandingPage uploads_modal={true} />} /> */}
 
         <Route path="/shop" element={<Shop />} />
 
         <Route path="/social" element={<Social />} />
-        <Route path="/benefits" element={<Benefits/>}/>
+        <Route path="/rewards" element={<Rewards/>}/>
         <Route path="/about" element={<AboutUs/>}/>
         <Route path="/shopcart" element={<ShopingCart />}/>
 

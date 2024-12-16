@@ -66,11 +66,11 @@ export default function AuthNavPanel(props) {
                             <img src={require(`../../assets/level_${UserData.level}.png`)} alt="" />
                         </div>
 
-                        <div onClick={()=>{navigate(`/benefits`)}} className={styles.bonus_bar}>
+                        {/* <div onClick={()=>{navigate(`/benefits`)}} className={styles.bonus_bar}>
                             <img src={require("../../assets/trophy.png")} alt='' style={{ marginRight: "10px" }}/>
                             <p>Bonuses</p>
                             <span style={{ color:"rgba(238, 125, 21, 1)", margin: "0 10px" }}>{UserData.points || 0}</span>
-                        </div>
+                        </div> */}
 
                     </>
                 }

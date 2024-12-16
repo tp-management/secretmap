@@ -10,7 +10,7 @@ const FooterModal = () => {
       <div className={styles.container}>
         <div className={styles.column_about}>
           <div className={`${styles.header_text}`}>
-              <h1><span>Hidden</span>World<span>!</span></h1>
+              <h1><span>Trip</span>Whoop<span>!</span></h1>
           </div>
         </div>
         <div className={styles.links_box}>

@@ -1,0 +1,114 @@
+.subheader{
+    margin-bottom: 1rem;
+}
+
+.subheader p{
+    color: #2836467e;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.enter_email{
+    position: relative;
+}
+
+.card_input{
+    width: 80%;
+}
+
+.card h1{
+    font-size: 20px;
+    color: #F08D32;
+}
+
+.card_btn{
+    display: inline-block;
+    position: relative;
+    margin: 20px 0;
+}
+
+.card_btn h1{
+    color: whitesmoke;
+    font-size: 13px;
+    padding: 10px 5px;
+}
+
+.note span{
+    align-self: center;
+    color: #f3ad6c;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.note{
+    text-align: center;
+    font-size: 16px;
+    margin: 1rem 0;
+    color: #3f50637e;
+}
+
+.points_item_header{
+    align-self: flex-start;
+    display: flex;
+}
+
+.list_btn{
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.submited_icon
+{
+    width: 4rem;
+    margin: 1rem auto;
+}
+
+.submited_header{
+    font-size: 2.1rem;
+    text-align: center;
+    color: rgb(91, 93, 93);
+}
+
+.submited_btns{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.submt_button{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.submt_button h1{
+    padding: 10px 8px;
+    color: aliceblue;
+}
+
+
+@media screen and (max-width: 400px) {
+    .card_input{
+        width: 100%;
+    }
+
+    .card h1{
+        font-size: 19px;
+    }
+
+    .card_btn h1{
+        font-size: 12px;
+    }
+
+    .subheader h1{
+        font-size: 20px;
+    }
+
+    .subheader p{
+        font-size: 1rem;
+        margin-top: 10px;
+        line-height:normal;
+        text-align: center;
+    }
+}

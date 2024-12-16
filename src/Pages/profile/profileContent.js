@@ -63,7 +63,7 @@ const ProfileComponet = (props) => {
       </div>
 
       <div className={styles.living_place}>
-        <h1 style={{ fontSize: "22px" , color:"#4a4a4a" }}>Living in <span style={{ display: "flex", color:"#EE7D15", fontSize: "17px", paddingTop:"10px" }}>
+        <h1 style={{ fontSize: "22px" , color:"#4a4a4a" }}>Level <span style={{ display: "flex", color:"#EE7D15", fontSize: "17px", paddingTop:"10px" }}>
           <img style={{ borderRadius:"11px", width: "40px", marginRight: "1rem" }} src={Auth.country.flag} alt='' />
           {Auth.country.name}  
         </span></h1>

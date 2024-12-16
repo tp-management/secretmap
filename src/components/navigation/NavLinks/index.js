@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import homeLinkLogo from "../../../assets/home-link-logo.png"
 import styles from './NavLinks.module.css';
 import "./onFocusStyles.css"
+import ShareNewPlace from '../../../Pages/PopUpPages/ShareNewPlace';
 
 
 const NavLinks = (props) => {
+
+  const [showUploadsModal, setShowUploadsModal] = useState(false);
 
   return <ul className={styles.nav_links_container}>
 
@@ -22,8 +25,13 @@ const NavLinks = (props) => {
       </NavLink>
     </li>
 
-    <li className="onFocus">
-      <NavLink to="/uploads" >
+    
+    {
+      showUploadsModal && <ShareNewPlace onClose={()=>setShowUploadsModal(false)} />
+    }
+
+    <li className="uploads">
+      <NavLink onClick={()=>setShowUploadsModal(true)}>
         Uploads
         <hr />
       </NavLink>
@@ -44,8 +52,8 @@ const NavLinks = (props) => {
     </li> */}
 
     <li className="onFocus">
-      <NavLink  to="/benefits" >
-        Benefits
+      <NavLink  to="/rewards" >
+        Rewards
         <hr />
       </NavLink>
     </li>

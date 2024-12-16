@@ -1,0 +1,140 @@
+
+  .container_column {
+    text-align: center;
+    margin: 2rem 1rem;
+  }
+
+  .non_active_column{
+    opacity: 0.5;
+    filter: blur(1px);
+  }
+  
+  .align_top{
+    margin-top: 4rem;
+  }
+
+  .point_card {
+    width: 100%;
+    padding: 1em;
+    background: linear-gradient(#ffffff 50%,  #F08D32 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* filter: grayscale(10%);
+    opacity: 0.5; */
+  }
+
+  .icon_wrapper {
+    background-color:  #FFF;
+    border: solid 1px #DEDEDE;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+
+  .earn_point {
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: 1em 0;
+    color: #0B132A;
+    letter-spacing: 1px;
+  }
+  
+  .description{
+    color: #575a7b;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .description p span{
+    color: #F08D32;
+  }
+
+  .controll_button
+  {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 1.7rem;
+  }
+
+  .controll_button img{
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .controll_button h2{
+    font-size: 13px;
+    color: white;
+    color: rgb(68, 68, 68);
+  }
+  
+  .innner_upgrade{
+    display: flex;
+    padding: 7px;
+    align-items: center;
+  }
+  
+  
+  @media screen and (min-width: 768px) {
+    .container_column {
+      flex: 0 50%;
+    }
+  }
+
+  @media screen and (max-width:1100px){
+    .hide_last_column{
+      display: none;
+    }
+  }
+  
+  
+  @media screen and (max-width:990px) { 
+    .align_top{
+      margin: 0
+    }
+    .container_column{
+      margin: auto;
+      margin-bottom: 2rem;
+      flex: 0 40%;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .container_column{
+      margin: 1.5rem auto;
+      margin: auto;
+    }
+    
+    .align_top{
+      margin-left: 0;
+      margin-top: 0;
+    }
+    .point_card{
+      width: 60vw;
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .container_column{
+      width: 90vw;
+    }
+    
+    .point_card{
+      width: 80vw;
+    }
+  }

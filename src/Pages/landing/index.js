@@ -8,7 +8,6 @@ import Authentication from '../PopUpPages/Authentication';
 import FellowTravelers from './FellowTravelers';
 import ScrollToTop from '../../components/shared/UI/ScrollToTop/ScrollToTop';
 import ExplorePlaces from './explorePlaces';
-import ShareNewPlace from '../PopUpPages/ShareNewPlace';
 
 
 const LandingMain = (props) => {
@@ -21,10 +20,6 @@ const LandingMain = (props) => {
             {
                 props.signup_modal &&
                 <NewUser />
-            }
-
-            {
-                props.uploads_modal && <ShareNewPlace />
             }
 
             <Destinations/>

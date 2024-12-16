@@ -1,5 +1,4 @@
 .wrapper{
-    justify-content: space-around;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -9,7 +8,6 @@
     justify-content: center;
     display: flex;
     margin-top: 2rem;
-
     align-items: center;
 }
 
@@ -18,7 +16,7 @@
 }
 
 .profile_name_email{
-    margin: 0 2rem;
+    margin: 0 3rem;
 }
 .profile_name_email h1{
     font-size: 30px;
@@ -31,22 +29,32 @@
     font-size: 20px;
 }
 
-.points{
+.country{
     margin-top: 2rem;
-
     display: flex;
     align-items: center;
 }
 
-.points h1, .points span{
+.country span{   
     font-size: 20px;
     margin-left:  1rem;
-}
-
-.points span{
     color: #EE7D15;
 }
 
-.points img{
-    width: 4rem;
+.country img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+    .user_avatar{
+        display: none;
+    }
+
+    .profile_name_email{
+        margin-left: 0;
+    }
+    
 }

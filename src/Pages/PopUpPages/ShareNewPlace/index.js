@@ -23,7 +23,7 @@ const  ShareNewPlace = (props) => {
       console.log("In process!");
       return
     }
-    navigate("/")
+    props.onClose()
   }
 
 

@@ -27,7 +27,7 @@ const NavHeader = (props) => {
     <div className={styles.mobile_navigation}>
       <MobileNavButton onClick={props.onMobile}/>
       <div className={`${styles.header_text}`} onClick={()=>navigate("/")}>
-        <h1><span>Secret</span>Map<span>!</span></h1>
+        <h1><span>Trip</span>Whoop<span>!</span></h1>
       </div>
     </div>
 

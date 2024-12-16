@@ -46,7 +46,7 @@ const HowItWorks = () => {
             Earn and Use Bonus Points
           </h1>
           <p>
-            Get 1 bonus point every day by staying connected with us. Use them to unlock benefits of HiddenWorld.org.
+            Get 1 bonus point every day by staying connected with us. Use them to unlock benefits of TripWhoop.org.
           </p>
         </div>
 

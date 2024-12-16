@@ -7,6 +7,7 @@ import points_icon from "../../assets/profile/points_icon.png";
 const UserPanel = ({user}) => {
 
     const Auth = useContext(AuthContext).authenticatedUser;
+    console.log("Auth [Profile]: ", Auth);
 
     if(!user || !user.name)return;
     
@@ -24,9 +25,9 @@ const UserPanel = ({user}) => {
                 </div>
             </div>
             
-            <div className={styles.points}>
-                <img src={points_icon} alt=''/>
-                <h1>Active Points <span>{user.points}</span></h1>
+            <div className={styles.country}>
+                <img src={user.country.flag} alt=''/>
+                <h1><span>{user.country.name}</span></h1>
             </div>
 
         </div>

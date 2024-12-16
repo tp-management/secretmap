@@ -1,4 +1,4 @@
-.onFocus hr{
+.onFocus hr, .uploads hr{
   position: absolute;
   padding: 2px;
   width: 80%;
@@ -20,10 +20,19 @@
   color: #EE7D15;
 }
 
-.onFocus a{
+.onFocus a, .uploads a{
   color: rgb(127, 120, 147);
 }
 
-.onFocus img{
+.onFocus img, .uploads img{
   width: 40px;
+}
+
+.uploads a:hover hr{
+  background-color: #EE7D15;
+  opacity: 1;
+}
+
+.uploads a:hover{
+  color: #EE7D15;
 }

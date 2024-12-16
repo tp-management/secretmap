@@ -43,7 +43,7 @@ const AboutUs = () => {
         </li>
 
         <li>
-          Start your adventure with HiddenWorld.org and let the exploration begin!
+          Start your adventure with TripWhoop.org and let the exploration begin!
         </li>
 
       </ul>
